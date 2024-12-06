@@ -1,0 +1,21 @@
+{
+  "name": "ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch main.ts",
+    "ts": "bun --watch scripts/run.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "dependencies": {
+    "@litdb/bun-sqlite": "^0.0.9",
+    "litdb": "^0.0.26"
+  }
+}
